@@ -27,9 +27,6 @@ $(call inherit-product, vendor/aosp/common.mk)
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# OTA
-$(call inherit-product, vendor/aosp/config/ota.mk)
-
 # Inherit from sagit device
 $(call inherit-product, device/xiaomi/sagit/device.mk)
 
